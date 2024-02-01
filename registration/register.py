@@ -11,8 +11,8 @@ db_connection = {
     "port": "5432",
     "database": "soundsync"
 }
-SPOTIPY_CLIENT_ID = '352a916cc74b412bb072ec99a1298376'
-SPOTIPY_CLIENT_SECRET = '24fd5cdfc91c4853bdf6a0a38e5e0901'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
 redirect_uri = "http://localhost:5000/redirect"
 SCOPE = 'user-library-read user-top-read'
 sp_oauth = SpotifyOAuth(SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, redirect_uri, scope=SCOPE)
