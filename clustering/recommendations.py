@@ -4,7 +4,7 @@ import pandas as pd
 import base64
 db_connection = {
     "user": "postgres",
-    "password": "root@123",
+    "password": "",
     "host": "localhost",
     "port": "5432",
     "database": "soundsync"
