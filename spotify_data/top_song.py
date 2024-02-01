@@ -1,7 +1,7 @@
 
 from spotipy import Spotify
-SPOTIPY_CLIENT_ID = '352a916cc74b412bb072ec99a1298376'
-SPOTIPY_CLIENT_SECRET = '24fd5cdfc91c4853bdf6a0a38e5e0901'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
 from spotipy.oauth2 import SpotifyClientCredentials
 import psycopg2
 
