@@ -18,7 +18,7 @@ CORS(app, supports_credentials=True)  # Enable CORS with support for credentials
 
 db_connection = {
     "user": "postgres",
-    "password": "root@123",
+    "password": "",
     "host": "localhost",
     "port": "5432",
     "database": "soundsync"
