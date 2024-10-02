@@ -9,6 +9,8 @@ The system works by retrieving the top 5 most-played songs for each user from Sp
 - Danceability
 - Energy
 - Loudness
+
+  
 These features generate a 25-feature matrix (5 songs × 5 features) that represents each user.
 
 # Key Components
