@@ -12,7 +12,7 @@ from likes.likes import like_post,remove_like
 from comments.comments import add_comment,fetch_comment
 from spotify_data.top_song import fetch_top_songs
 app = Flask(__name__)
-app.secret_key = "232234dfs2"
+app.secret_key = "******************"
 CORS(app) 
 CORS(app, supports_credentials=True)  # Enable CORS with support for credentials
 
